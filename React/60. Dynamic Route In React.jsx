@@ -108,7 +108,8 @@ export default function UserList(){
 import { Link, useParams } from "react-router";
 
 export default function UserData(){
-    const paramsData = useParams();
+    const paramsData = useParams();  // Note: get the dynamic parameter from the URL like in this code get id from url
+    console.log(paramsData);
     console.log(paramsData);
     return (
         <div>
@@ -298,5 +299,6 @@ body {
     color: black;
     font-size: 20px;
 }
+
 
 */
