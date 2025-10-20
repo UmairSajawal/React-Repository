@@ -46,3 +46,32 @@ function App() {
 export default App
 
 */
+
+/*
+// App.css file code:
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 350px;
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.error {
+    outline: 2px solid red;
+}
+
+.error:focus {
+    outline: 2px solid red;
+}
+
+.red-color {
+    color: red;
+}
+
+*/
+
