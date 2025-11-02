@@ -71,6 +71,145 @@ export default Sidebar
 
 */
 
+// Main.jsx file code:
+
+/*
+import React from "react"
+import './Main.css'
+import { assets } from "../../assets/assets"
+function Main() {
+
+  return (
+    <>
+       <div className="main">
+          <div className="nav">
+            <p>Gemini</p>
+            <img src={assets.user_icon} alt="" />
+          </div>
+          <div className="main-container">
+            <div className="greet">
+                <p><span>Hello, Dev.</span></p>
+                <p>How can I help you today?</p>
+            </div>
+            <div className="cards">
+                <div className="card">
+                    <p>Suggest beautiful places to see on an upcoming road trip</p>
+                    <img src={assets.compass_icon} alt="" />
+                </div>
+                <div className="card">
+                    <p>Breifly summarize the concept: urban planning</p>
+                    <img src={assets.bulb_icon} alt="" />
+                </div>
+                <div className="card">
+                    <p>Brainstorm team bonding activities for our work retreat</p>
+                    <img src={assets.message_icon} alt="" />
+                </div>
+                <div className="card">
+                    <p>Imrpve the readability of the following code</p>
+                    <img src={assets.code_icon} alt="" />
+                </div>
+            </div>
+            <div className="main-bottom">
+                <div className="search-box">
+                    <input type="text" placeholder="Enter a prompt here" />
+                    <div>
+                        <img src={assets.gallery_icon} alt="" />
+                        <img src={assets.mic_icon} alt="" />
+                        <img src={assets.send_icon} alt="" />
+                    </div>
+                </div>
+                <p>
+                    Gemini may display inaccurate info, including about people, so double-check its response. Your privacy and Gemini Apps
+                </p>
+            </div>
+          </div>
+       </div>
+    </>
+  )
+}
+
+export default Main
+
+*/
+
+// Main.css file code:
+
+/*
+.main {
+    flex: 1;
+    padding-bottom: 15vh;
+    min-height: 100vh;
+    position: relative;
+}
+
+.main .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #585858;
+}
+
+.main .nav img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.main .greet {
+    margin: 50px 0;
+    font-size: 56px;
+    color: #c4c5c7;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.main .greet span {
+    background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.main .card {
+    height: 200px;
+    padding: 15px;
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.main .card img {
+    width: 35px;
+    padding: 5px;
+    position: absolute;
+    background-color: white;
+    bottom: 10px;
+    right: 10px;
+}
+
+.main .card p {
+    color: #585858;
+    font-size: 17px;
+}
+
+.main .card:hover {
+    background-color: #dfe4ea;
+}
+*/
+
 
 // index.css file code:
 /*
@@ -156,4 +295,5 @@ export default Sidebar
     padding-right: 10px;
     cursor: pointer;
 }
+
 */
