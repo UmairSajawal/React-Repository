@@ -11,6 +11,7 @@ function App() {
   return (
     <>
        <Sidebar />
+       <Main />
     </>
   )
 }
@@ -227,7 +228,9 @@ export default Main
 }
 */
 
+
 // Sidebar.css file code:
+
 /*
 .sidebar {
     min-height: 100vh;
@@ -297,3 +300,4 @@ export default Main
 }
 
 */
+
