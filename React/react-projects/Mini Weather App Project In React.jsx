@@ -1,5 +1,5 @@
 // ****** Mini Weather App Project In React ****** //
-
+// API: OpenWeatherApi
 // App.jsx file code:
 /*
 import Weather from "./Weather"
@@ -86,4 +86,5 @@ export default function Weather() {
     .weather-info {
     margin-top: 20px;
     }
+
 */
